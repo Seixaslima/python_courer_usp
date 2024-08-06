@@ -9,4 +9,7 @@ if numero > 1:
       is_primo = False
       break
 
-print(is_primo)
+if is_primo:
+  print("primo")
+else:
+  print("não primo")
